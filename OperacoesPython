@@ -1,0 +1,29 @@
+while True:
+  print("""
+-----MENU-----
+1. Adição
+2. Subtração
+3. Divisão
+4. Multiplicação
+5. Sair """)
+  opção = int(input("Escolha uma opção: "))
+  if opção == 5:
+        break
+    elif opção >= 1 and opção < 5:
+        n = int(input("Numero um: "))
+        x = int(input("Numero dois: "))
+        while opção != 0:
+            if opção == 1:
+                print(f"{n} + {x} = {n + x}")
+                break
+            elif opção == 2:
+                print(f"{n} - {x} = {n - x}")
+                break
+            elif opção == 3:
+                print(f"{n} / {x} = {n / x:5.2f}")
+                break
+            elif opção == 4:
+                print(f"{n} x {x} = {n * x}")
+                break
+    else:
+        print("Opção inválida!")
