@@ -4,7 +4,7 @@ while True:
     nota2 = float(input("Digite o valor da segunda nota: "))
     aux = nota1 + nota2
     media = aux/2
-    if media >= 6.0:
+    if media > 6.0:
         print("Aprovado!!!")
         print("Sua média é: ", media)
         print("")
