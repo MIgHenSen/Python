@@ -1,0 +1,11 @@
+while True:
+    try:
+        print("Para saber o maior valor entre três números...")
+        n1 = int(input("Digite o primeiro valor: "))
+        n2 = int(input("Digite o segundo valor: "))
+        n3 = int(input("Digite o terceiro valor: "))
+        print("O maior valor é: ", max(n1, n2, n3))
+        print("")
+    except ValueError:
+        print("Digite apenas valores válidos!!!")
+        print("")
