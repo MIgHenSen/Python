@@ -5,6 +5,7 @@ while True:
         n2 = int(input("Digite o segundo valor: "))
         n3 = int(input("Digite o terceiro valor: "))
         print("O maior valor é: ", max(n1, n2, n3))
+        print("O menor valor é: ", min(n1, n2, n3))
         print("")
     except ValueError:
         print("Digite apenas valores válidos!!!")
