@@ -1,46 +1,27 @@
 lista = []
-
-#Função para exibir lista
 def exibeLista():
     print(lista)
-    
-#Função para adicionar itens na lista
 def adicionarItem(palavra):
     lista.append(palavra)
-    
-#Função para exibir cada posição em uma linha diferente
 def palavraPorPalavra():
     for x in lista:
         print(x)
-        
-#Função para excluir todos os itens da lista
 def limparLista():
     lista.clear()
-    
-#Função para exibir posição específica da lista
 def posicaoEspecifica(x):
     print(lista[x])
-    
-#Função para substituir posição da lista
 def substituirPosicao(x, palavra):
     lista[x] = palavra
-    
-##Função para excluir última posição
 def excluirUltimaPosicao():
     lista.pop()
-    
-#Função para adicionar item em posição epecífica
 def adicionarPosicaoEspecifica(x, palavra):
     lista.insert(x, palavra)
-    
-#Função para deletar posição específica
 def deletarPosicaoEspecifica(x):
     del lista[x]
     
 print("Em meu sistema tenho uma lista vazia e você pode fazer algumas coisas com ela:")
 print("")
 
-#Estrutura while
 while True:
     print("----- MENU -----")
     print("1. Adicionar palavra")
@@ -53,19 +34,14 @@ while True:
     print("8. Deletar posição")
     print("9. Finalisar Programa")
     
-    #Try, para verificar erros nos códigos abaixo
     try:
-        #Input que recebe numero inteiro
         option = int(input("Sua Escolha: "))
         
-        #Estrutura if else, para se o usuário quiser finalizar o programa
         if option == 9:
             print("Saindo...")
             break
         
-        #Estrutura while, para repetir enquanto option for dierente de 9
         while option != 9:
-            #Estrutura if else, que trata as escolhas do usuário
             if option == 1:
                 palavra = input("\nDigite uma palavra: ")
                 adicionarItem(palavra)
