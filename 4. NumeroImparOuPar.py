@@ -1,13 +1,8 @@
-#Estrutura de repetição while
 while True:
-    #Try, para verificar erros nos códigos abaixo
     try:
         print("Para saber se um número é ímpar ou par...")
-        #Input que recebe números inteiros
         number = int(input("Digite um número: "))
 
-        #Estrutura if else que verifica resto da divisão 
-        # de number por dois e define numeros pares ou impares
         if number % 2 == 0:
             print("É um número par")
             print("")
