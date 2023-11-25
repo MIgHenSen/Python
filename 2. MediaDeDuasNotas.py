@@ -1,16 +1,12 @@
-#Estrutura de repetição while
 while True:
-    #Try, para verificar erros nos códigos abaixo
     try:
         print("Para calucular média de duas notas...")
-        #Inputs de tipo float, que podem receber números decimais
         nota1 = float(input("Digite o valor da primeira nota: "))
         nota2 = float(input("Digite o valor da segunda nota: "))
 
         aux = nota1 + nota2
         media = aux/2
 
-        #Estrutura if else, que verifica se aluno foi aprovado, reprovado ou ficará em recuperação
         if media > 6.0:
             print("Aprovado!!!")
             print("Sua média é: ", media)
