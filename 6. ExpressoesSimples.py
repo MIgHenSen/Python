@@ -1,6 +1,4 @@
-#Estrutura de repetição while
 while True:
-    #Try, para verificar erros nos códigos abaixo
     try:
         print("Para calcular espressões matemáticas simples...")
         conta = input("Digite a expressão: ")
