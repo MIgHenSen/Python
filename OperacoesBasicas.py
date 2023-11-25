@@ -1,4 +1,3 @@
-#Estrutura de repetição while
 while True:
     print("----- MENU -----")
     print("1. Adição")
@@ -7,23 +6,17 @@ while True:
     print("4. Divisão")
     print("5. Sair")
 
-    #Try, para verificar erros nos códigos abaixo
     try:
-        #Variavel que recebe numero inteiro
         option = int(input("Qual a sua escolha: "))
         
-        #Estrutura if else, para se o usuário quiser finalizar o programa
         if option == 5:
             print("Saindo...")
             break
 
-        #Estrutura while, para repetir enquanto option for dierente de 5
         while option != 5:
-            #VAriáveis que recebem números para a operação
             n1 = int(input("Digite o primeiro numero: "))
             n2 = int(input("Digite o segundo numero: "))
         
-            #Estrutura if else. para exibir o resultado da operação escolhida pelo usuário
             if option == 1:
                 print(f"{n1} + {n2} = {n1 + n2}")
                 print("")
