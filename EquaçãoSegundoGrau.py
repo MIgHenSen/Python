@@ -1,9 +1,6 @@
-#Estrutura de repetição while
 while True:
-    #Try, para verificar erros nos códigos abaixo
     try:
         print("Para clacular equações de 2° grau: ")
-        #Variaveis que podem receber numeros decimais
         a = float(input("Digite o valor de a: "))
         b = float(input("Digite o valor de b: "))
         c = float(input("Digite o valor de c: "))
