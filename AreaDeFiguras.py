@@ -21,7 +21,7 @@ while True:
             print("")
         elif forma == 2:
             larg = float(input("Digite a medida da largura: "))
-            comp = float(input("Digite o valor do comproiento: "))
+            comp = float(input("Digite o valor do comprimento: "))
 
             if larg == 0 or comp == 0:
                 print("Essa figura não existe!!!")
@@ -53,3 +53,4 @@ while True:
     except ValueError:
         print("Digite apenas valores válidos!!!")
         print("")
+
