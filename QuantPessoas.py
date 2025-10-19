@@ -11,6 +11,7 @@ while True:
         
     r = input("Deseja adicionar mais alguém [S|N]")
     if r.upper() == "N":
-        print("Homens com mais de 18 anos: ", homensComMaisDe18)
-        print("Numero de mulheres: ", mulheres)
+        print("Número de Homens: ", homensComMaisDe18)
+        print("Numero de Mulheres: ", mulheres)
         break
+
